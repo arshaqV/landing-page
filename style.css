@@ -1,0 +1,132 @@
+* {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.hero, .header, .footer {
+    margin: auto;
+    background-color: #1f2937;
+    color : #f9faf8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hero div {
+    width:400px;
+    margin-bottom: 50px;
+}
+
+.hero h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.hero h2 {
+    font-size: 48px;
+    font-weight:900;
+    margin-bottom: 0;
+}
+
+.hero p, .links {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    background-color: #3882f6;
+    color:#f9faf8;
+    width: 150px;
+    height: 2em;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    border: 0px;
+    border-radius: 8px;
+
+}
+
+.links a {
+    padding: 10px;
+}
+
+.hero img{
+    width: 400px;
+    padding: auto;
+    height: auto;
+    background-color: #e5e7eb;
+    border-radius: 5%;
+    border: #1f2937;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.images div {
+    padding: 50px;
+}
+
+.images img {
+    width:100px;
+    height : auto;
+    border: black;
+    border-radius: 8px;
+}
+
+h3 {
+    margin: auto;
+    width: 500px;
+    text-align: center;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    height : 200px;
+    
+}
+.quote p {
+    font-weight: bold;
+    display: block;
+    text-align: right;
+    width : 300px;
+    margin: auto;
+    
+}
+.quote .q {
+    font-style: italic;
+    font-weight:normal;
+    font-size: 36px;
+    text-align: left;
+}
+#heading {
+    color: #1f2937;
+    margin-top: 50px;
+    font-size: 36px;
+    font-style: bolder;
+}
+
+.call2action {
+    
+    background-color: #3882f6;
+    color: #f9faf8;
+    width: 80vw;
+    margin : 30px auto;
+    align-items: center;
+    display : flex;
+    justify-content: space-around;
+    border: 0;
+    border-radius: 16px;
+}
+
+.call2action button {
+    border: 10px #f9faf8;
+}
