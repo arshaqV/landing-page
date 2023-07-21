@@ -17,6 +17,7 @@ body {
 
 .hero div {
     width:400px;
+    padding: 50px;
     margin-bottom: 50px;
 }
 
@@ -40,7 +41,7 @@ button {
     background-color: #3882f6;
     color:#f9faf8;
     width: 150px;
-    height: 2em;
+    height: 3em;
     font-family: "Roboto", Arial, Helvetica, sans-serif;
     font-weight: bolder;
     border: 0px;
@@ -69,14 +70,19 @@ button {
 }
 
 .images div {
-    padding: 50px;
+    padding-right: 50px;
+}
+
+.images p {
+    text-align: center;
+    color: #1f2937
 }
 
 .images img {
-    width:100px;
-    height : auto;
-    border: black;
-    border-radius: 8px;
+    width: 150px;
+    height : 150px;
+    border: 5px solid #3882f6;
+    border-radius: 30px;
 }
 
 h3 {
@@ -90,7 +96,7 @@ h3 {
     color: #1f2937;
     display: flex;
     flex-direction: column;
-    height : 200px;
+    height : 150px;
     
 }
 .quote p {
@@ -115,7 +121,7 @@ h3 {
 }
 
 .call2action {
-    
+    padding:20px;
     background-color: #3882f6;
     color: #f9faf8;
     width: 80vw;
@@ -123,10 +129,9 @@ h3 {
     align-items: center;
     display : flex;
     justify-content: space-around;
-    border: 0;
     border-radius: 16px;
 }
 
 .call2action button {
-    border: 10px #f9faf8;
+    border: 2px solid #ffffff;
 }
