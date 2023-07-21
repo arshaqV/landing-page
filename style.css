@@ -3,6 +3,7 @@
 }
 
 body {
+    background-color: #1f2937;
     margin: 0;
 }
 
@@ -63,6 +64,7 @@ button {
 }
 
 .images {
+    background-color: #f9faf8;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -91,6 +93,11 @@ h3 {
     text-align: center;
 }
 
+#heading {
+    width: 100%;
+    padding-top: 50px;
+    background-color: #f9faf8;
+}
 .quote {
     background-color: #e5e7eb;
     color: #1f2937;
@@ -121,6 +128,12 @@ h3 {
 }
 
 .call2action {
+    background-color: #f9faf8;
+    margin: 0;
+    padding: 10px;
+}
+
+.call2action-box {
     padding:20px;
     background-color: #3882f6;
     color: #f9faf8;
@@ -131,6 +144,8 @@ h3 {
     justify-content: space-around;
     border-radius: 16px;
 }
+
+
 
 .call2action button {
     border: 2px solid #ffffff;
